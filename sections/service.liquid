@@ -1,0 +1,49 @@
+<div class="gallery-section">
+  {% if section.settings.gallery_selection %}
+      <img src="{{ section.settings.img | img_url: "600x" }}"/>
+  {% endif %}
+
+  {% for block in section.blocks %}
+      <img src="{{ block.settings.gallery_image | img_url: "400x" }}" />
+  {% endfor %}
+</div>
+
+
+
+{% schema %}
+  {
+    "name": "Gallery Section",
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "gallery_selection",
+        "label": "Check to show image",
+        "default": false
+      },
+      {
+        "type": "image_picker",
+        "id": "img",
+        "label": "Select Image"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "gallery",
+        "name": "Gallery",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "gallery_image",
+            "label": "Gallery Image"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Custom Gallery",
+        "category": "Gallery"
+      }
+    ]
+  }
+{% endschema %}
