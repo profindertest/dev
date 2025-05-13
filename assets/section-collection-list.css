@@ -59,3 +59,8 @@
 .collection-list-view-all {
   margin-top: 2rem;
 }
+
+.collection-list-title {
+    color: #ff0000;
+    font-size: 40px;
+}
