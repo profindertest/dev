@@ -11,7 +11,19 @@
   "sections": {
     "main": {
       "type": "service",
-      "settings": {}
+      "blocks": {
+        "gallery_U7jrV6": {
+          "type": "gallery",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "gallery_U7jrV6"
+      ],
+      "settings": {
+        "gallery_selection": true,
+        "img": "shopify://shop_images/person-fishing-on-the-beach-is-silhouetted-at-sunset.jpg"
+      }
     }
   },
   "order": [
