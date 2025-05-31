@@ -116,7 +116,9 @@
           %}
         </aside>
       {%- endif -%}
+
       <img src="{{ collection.metafields.custom.image  | img_url: "600x" }}" />
+      
       <div class="product-grid-container" id="ProductGridContainer">
         {%- if collection.products.size == 0 -%}
           <div class="collection collection--empty page-width" id="product-grid" data-id="{{ section.id }}">
