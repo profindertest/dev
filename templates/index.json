@@ -210,6 +210,7 @@
       "block_order": [
         "ai_gen_block_9cf1c35_beDe43"
       ],
+      "name": "Magazine Layout",
       "settings": {}
     },
     "177985053606f27a14": {
@@ -287,6 +288,25 @@
         "ai_gen_block_200232d_QQjCCB"
       ],
       "settings": {}
+    },
+    "1779850827c1976344": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_b809d74_d6CHaK": {
+          "type": "ai_gen_block_b809d74",
+          "settings": {
+            "layout": "2",
+            "gap": 8,
+            "border_radius": 4,
+            "desktop_width_percent": 100
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_b809d74_d6CHaK"
+      ],
+      "settings": {}
     }
   },
   "order": [
@@ -297,6 +317,7 @@
     "service_NajWJp",
     "1779850236eee1ddb1",
     "177985053606f27a14",
-    "177985062966a57009"
+    "177985062966a57009",
+    "1779850827c1976344"
   ]
 }
