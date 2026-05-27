@@ -37,6 +37,10 @@
           "type": "price",
           "settings": {}
         },
+        "rating_cqbyam": {
+          "type": "rating",
+          "settings": {}
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -47,6 +51,18 @@
         "description": {
           "type": "description",
           "settings": {}
+        },
+        "icon_with_text_haaA4L": {
+          "type": "icon-with-text",
+          "settings": {
+            "layout": "horizontal",
+            "icon_1": "heart",
+            "heading_1": "Heading",
+            "icon_2": "return",
+            "heading_2": "Heading",
+            "icon_3": "truck",
+            "heading_3": "Heading"
+          }
         },
         "share": {
           "type": "share",
@@ -62,8 +78,10 @@
         "variant_picker",
         "quantity_selector",
         "price",
+        "rating_cqbyam",
         "buy_buttons",
         "description",
+        "icon_with_text_haaA4L",
         "share"
       ],
       "settings": {
@@ -81,6 +99,21 @@
         "padding_bottom": 0
       }
     },
+    "17492950767b8a645e": {
+      "type": "apps",
+      "blocks": {
+        "infinite_options_app_block_FcyiHF": {
+          "type": "shopify://apps/infinite-options/blocks/app-block/7e73b6f9-82b0-45f5-9b9b-04f446ba1a9b",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "infinite_options_app_block_FcyiHF"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "related-products": {
       "type": "related-products",
       "settings": {
@@ -96,21 +129,6 @@
         "columns_mobile": "2",
         "padding_top": 48,
         "padding_bottom": 28
-      }
-    },
-    "17492950767b8a645e": {
-      "type": "apps",
-      "blocks": {
-        "infinite_options_app_block_FcyiHF": {
-          "type": "shopify://apps/infinite-options/blocks/app-block/7e73b6f9-82b0-45f5-9b9b-04f446ba1a9b",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "infinite_options_app_block_FcyiHF"
-      ],
-      "settings": {
-        "include_margins": true
       }
     }
   },
