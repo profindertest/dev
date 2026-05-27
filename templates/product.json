@@ -81,6 +81,21 @@
         "padding_bottom": 0
       }
     },
+    "17492950767b8a645e": {
+      "type": "apps",
+      "blocks": {
+        "infinite_options_app_block_FcyiHF": {
+          "type": "shopify://apps/infinite-options/blocks/app-block/7e73b6f9-82b0-45f5-9b9b-04f446ba1a9b",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "infinite_options_app_block_FcyiHF"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "related-products": {
       "type": "related-products",
       "settings": {
@@ -98,25 +113,36 @@
         "padding_bottom": 28
       }
     },
-    "17492950767b8a645e": {
-      "type": "apps",
+    "blocks_dkryGF": {
+      "type": "_blocks",
       "blocks": {
-        "infinite_options_app_block_FcyiHF": {
-          "type": "shopify://apps/infinite-options/blocks/app-block/7e73b6f9-82b0-45f5-9b9b-04f446ba1a9b",
-          "settings": {}
+        "ai_gen_block_90ea3a0_9wyLpU": {
+          "type": "ai_gen_block_90ea3a0",
+          "settings": {
+            "heading_text": "Glowing Heading",
+            "heading_tag": "h2",
+            "font_size": 60,
+            "font_weight": "700",
+            "text_alignment": "center",
+            "text_color": "#ffffff",
+            "glow_color": "#45c0b6",
+            "glow_intensity": 20,
+            "desktop_width_percent": 100
+          },
+          "blocks": {}
         }
       },
       "block_order": [
-        "infinite_options_app_block_FcyiHF"
+        "ai_gen_block_90ea3a0_9wyLpU"
       ],
-      "settings": {
-        "include_margins": true
-      }
+      "name": "Glow heading",
+      "settings": {}
     }
   },
   "order": [
     "main",
     "17492950767b8a645e",
-    "related-products"
+    "related-products",
+    "blocks_dkryGF"
   ]
 }
